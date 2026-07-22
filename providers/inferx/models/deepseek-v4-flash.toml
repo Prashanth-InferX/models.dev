@@ -1,0 +1,7 @@
+name = "deepseek-v4-flash"
+description = "284B MoE model (13B active parameters) from DeepSeek with selectable reasoning effort"
+reasoning = true
+tool_call = true
+open_weights = true
+[limit]
+context = 1_000_000

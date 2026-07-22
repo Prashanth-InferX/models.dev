@@ -1,0 +1,6 @@
+name = "Devstral-2-123B-Instruct-2512-int4-AutoRound"
+description = "Agentic coding model for software engineering agents, repository exploration, and multi-file edits"
+tool_call = true
+open_weights = true
+[limit]
+context = 128_000

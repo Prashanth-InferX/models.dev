@@ -1,0 +1,5 @@
+name = "Qwen3.6-35B-A3B-fp8-no-thinking"
+description = "Qwen3.6-35B-A3B-fp8 disable thinking"
+reasoning = false
+[limit]
+context = 262_000

@@ -1,0 +1,7 @@
+name = "Step-3.7-Flash-NVFP4"
+description = "198B MoE vision-language model from StepFun with selectable reasoning depth"
+reasoning = true
+tool_call = true
+[modalities]
+input = ["text", "image"]
+output = ["text"]

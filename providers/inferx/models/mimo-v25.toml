@@ -1,0 +1,5 @@
+name = "mimo-v25"
+description = "311B MoE model from Xiaomi MiMo"
+open_weights = true
+[limit]
+context = 1_000_000

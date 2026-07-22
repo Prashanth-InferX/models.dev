@@ -1,0 +1,5 @@
+name = "Agents-A1"
+description = "35B MoE agentic model built for long-horizon search, engineering, and scientific reasoning tasks"
+open_weights = true
+[limit]
+context = 262_000

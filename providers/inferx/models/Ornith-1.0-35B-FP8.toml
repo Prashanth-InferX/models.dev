@@ -1,0 +1,7 @@
+name = "Ornith-1.0-35B-FP8"
+description = "Self-improving agentic coding model post-trained on Qwen3.5"
+reasoning = true
+tool_call = true
+open_weights = true
+[limit]
+context = 262_000
