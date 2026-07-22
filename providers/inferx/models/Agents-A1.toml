@@ -13,3 +13,6 @@ output = 262_000
 [modalities]
 input = ["text", "image"]
 output = ["text"]
+[cost]
+input = 0
+output = 0

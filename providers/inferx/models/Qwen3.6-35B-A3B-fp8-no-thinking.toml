@@ -4,3 +4,6 @@ reasoning = false
 description = "Qwen3.6-35B-A3B-fp8 disable thinking"
 [limit]
 context = 262_000
+[cost]
+input = 0
+output = 0

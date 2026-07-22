@@ -14,3 +14,6 @@ output = 4_096
 [modalities]
 input = ["text"]
 output = ["text"]
+[cost]
+input = 0
+output = 0

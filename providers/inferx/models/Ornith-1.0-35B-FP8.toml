@@ -4,3 +4,6 @@ reasoning_options = []
 [limit]
 context = 262_000
 output = 262_000
+[cost]
+input = 0
+output = 0
