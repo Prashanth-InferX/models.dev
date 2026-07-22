@@ -1,6 +1,6 @@
 name = "Ornith-1.0-35B-FP8"
 base_model = "deepreinforce/ornith-1.0-35b"
-reasoning_options = [{ type = "toggle" }]
+reasoning_options = []
 [limit]
 context = 262_000
 output = 262_000
