@@ -1,7 +1,16 @@
 name = "Qwen3-Embedding-8B"
-description = "Qwen/Qwen3-Embedding-8B embedding model"
+description = "Embedding model for semantic search, retrieval, clustering, and ranking pipelines"
+family = "text-embedding"
+release_date = "2025-06-05"
+last_updated = "2025-06-05"
+attachment = false
+reasoning = false
+temperature = false
+tool_call = false
+open_weights = true
+[limit]
+context = 32_768
+output = 4_096
 [modalities]
 input = ["text"]
 output = ["text"]
-[limit]
-context = 32_768

@@ -1,5 +1,5 @@
 name = "mimo-v25"
-description = "311B MoE model from Xiaomi MiMo"
-open_weights = true
+base_model = "xiaomi/mimo-v2.5"
+reasoning_options = [{ type = "toggle" }]
 [limit]
 context = 1_000_000

@@ -1,7 +1,6 @@
 name = "Ornith-1.0-35B-FP8"
-description = "Self-improving agentic coding model post-trained on Qwen3.5"
-reasoning = true
-tool_call = true
-open_weights = true
+base_model = "deepreinforce/ornith-1.0-35b"
+reasoning_options = [{ type = "toggle" }]
 [limit]
 context = 262_000
+output = 262_000

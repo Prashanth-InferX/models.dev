@@ -1,3 +1,17 @@
 name = "Hy3-295B-NVFP4"
 description = "295B MoE model (21B active parameters) from Tencent"
+family = "hy3"
+release_date = "2026-07-06"
+last_updated = "2026-07-06"
+attachment = false
+reasoning = true
+reasoning_options = [{ type = "toggle" }]
+tool_call = true
+structured_output = true
 open_weights = true
+[limit]
+context = 256_000
+output = 256_000
+[modalities]
+input = ["text"]
+output = ["text"]

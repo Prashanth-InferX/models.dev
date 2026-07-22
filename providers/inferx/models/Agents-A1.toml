@@ -1,5 +1,15 @@
 name = "Agents-A1"
 description = "35B MoE agentic model built for long-horizon search, engineering, and scientific reasoning tasks"
+release_date = "2026-06-26"
+last_updated = "2026-06-26"
+attachment = true
+reasoning = true
+reasoning_options = [{ type = "toggle" }]
+tool_call = true
 open_weights = true
 [limit]
 context = 262_000
+output = 262_000
+[modalities]
+input = ["text", "image"]
+output = ["text"]
