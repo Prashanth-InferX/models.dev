@@ -1,6 +1,10 @@
 name = "deepseek-v4-flash"
 base_model = "deepseek/deepseek-v4-flash"
-reasoning_options = []
+# API: chat_template_kwargs.enable_thinking (bool) — verified via live request, 2026-07-22.
+# Note: reasoning_effort parameter is accepted but has no measurable
+# effect on output (tested low vs high, ~2% token difference); toggle
+# is the only confirmed working control.
+reasoning_options = [{ type = "toggle" }]
 [limit]
 context = 1_000_000
 [cost]
