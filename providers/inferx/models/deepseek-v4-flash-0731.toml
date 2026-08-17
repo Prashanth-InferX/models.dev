@@ -1,4 +1,9 @@
 name = "DeepSeek v4 Flash (0731)"
+description = "DeepSeek v4 Flash model snapshot (0731) optimized for low-latency reasoning and high-throughput inference."
+release_date = "2026-07-31"
+last_updated = "2026-08-16"
+open_weights = true
+
 attachment = false
 reasoning = true
 tool_call = true
