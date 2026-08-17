@@ -1,5 +1,5 @@
 # Toggle: chat_template_kwargs.enable_thinking = true|false
-base_model = "deepseek/deepseek-v4-flash"
+base_model = "deepseek/deepseek-v4-flash-0731"
 name = "DeepSeek v4 Flash (0731)"
 
 reasoning_options = [
@@ -10,7 +10,3 @@ reasoning_options = [
 input = 0.056
 output = 0.112
 cache_read = 0.0112
-
-[limit]
-context = 1_000_000
-output = 100_000
