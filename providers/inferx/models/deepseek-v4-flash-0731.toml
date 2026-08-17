@@ -1,17 +1,9 @@
+# Toggle: chat_template_kwargs.enable_thinking = true|false
+base_model = "deepseek/deepseek-v4-flash"
 name = "DeepSeek v4 Flash (0731)"
-description = "DeepSeek v4 Flash model snapshot (0731) optimized for low-latency reasoning and high-throughput inference."
-release_date = "2026-07-31"
-last_updated = "2026-08-16"
-open_weights = true
-
-attachment = false
-reasoning = true
-tool_call = true
-structured_output = true
-temperature = true
 
 reasoning_options = [
-  { type = "effort", values = ["low", "medium", "high"] },
+  { type = "toggle" },
 ]
 
 [cost]
@@ -21,8 +13,4 @@ cache_read = 0.0112
 
 [limit]
 context = 1_000_000
-output = 8_192
-
-[modalities]
-input = ["text"]
-output = ["text"]
+output = 100_000
