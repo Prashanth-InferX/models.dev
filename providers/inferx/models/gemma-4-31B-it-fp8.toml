@@ -1,6 +1,11 @@
-name = "Gemma 4 31B IT FP8"
+# Toggle: chat_template_kwargs.enable_thinking = true|false
 base_model = "google/gemma-4-31b-it"
-reasoning_options = []
+name = "Gemma 4 31B IT (FP8)"
+
+reasoning_options = [
+  { type = "toggle" }
+]
+
 [cost]
-input = 0
-output = 0
+input = 0.02
+output = 0.14
