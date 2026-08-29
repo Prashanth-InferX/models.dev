@@ -3,7 +3,7 @@ base_model = "zhipuai/glm-5.3"
 name = "GLM 5.3 Flash"
 
 reasoning_options = [
-  { type = "effort", default = "high", options = ["low", "high", "max"] },
+  { type = "effort", values = ["low", "high", "max"] }
 ]
 
 [cost]
