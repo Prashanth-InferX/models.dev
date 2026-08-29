@@ -1,5 +1,5 @@
-# Toggle wire: {"chat_template_kwargs": {"enable_thinking": true|false}}
-# Effort wire: {"reasoning_effort": "high"|"max"}
+# Toggle wire: {"chat_template_kwargs": {"enable_thinking": true|false}} — verified via live test
+# Effort wire: {"reasoning_effort": "high"|"max"} — verified via live test, both enable reasoning
 base_model = "deepseek/deepseek-v4-flash-0731"
 
 [cost]
