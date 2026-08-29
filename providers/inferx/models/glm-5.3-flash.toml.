@@ -1,5 +1,5 @@
 # Toggle: chat_template_kwargs.enable_thinking = true|false
-base_model = "zhipuai/glm-5.3-flash"
+base_model = "zhipuai/glm-5.3"
 name = "GLM 5.3 Flash"
 
 reasoning_options = [
