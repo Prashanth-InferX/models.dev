@@ -1,4 +1,4 @@
-# InferX proprietary model SKU (no public lab identity)
+# Toggle: chat_template_kwargs.enable_thinking = true|false
 name = "Agents-A1"
 description = "InferX agentic execution model"
 attachment = true
@@ -24,4 +24,4 @@ output = 0.00
 
 [limit]
 context = 262_144
-output = 8_192
+output = 100_000
