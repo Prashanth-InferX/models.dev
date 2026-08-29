@@ -1,7 +1,7 @@
 # InferX proprietary model SKU (no public lab identity)
 name = "Agents-A1"
 description = "InferX agentic execution model"
-family = "agents"
+family = "auto"
 attachment = false
 reasoning = false
 tool_call = true
