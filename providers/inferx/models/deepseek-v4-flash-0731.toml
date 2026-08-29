@@ -1,3 +1,4 @@
+# wire: toggle via chat_template_kwargs.enable_thinking; reasoning_effort is unsupported (no-op) on this host
 # Toggle: chat_template_kwargs.enable_thinking = true|false
 base_model = "deepseek/deepseek-v4-flash-0731"
 name = "DeepSeek V4 Flash (0731)"
