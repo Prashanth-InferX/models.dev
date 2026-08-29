@@ -16,7 +16,7 @@ context = 1_048_576
 output = 131_072
 
 [modalities]
-input = ["text", "image", "video"]
+input = ["text", "image", "video", "pdf"]
 output = ["text"]
 
 [[weights]]
