@@ -1,19 +1,25 @@
 name = "DeepSeek V4 Flash (0731)"
-description = "Lightweight reasoning model optimized for sub-second latent execution and agentic workflows"
-family = "deepseek"
-attachment = true
+family = "deepseek-flash"
+description = "Efficiency-optimized MoE model from DeepSeek's V4 series, tuned for fast inference and high-throughput agentic workloads"
+attachment = false
 reasoning = true
 tool_call = true
 structured_output = true
 temperature = true
 release_date = "2026-07-31"
 last_updated = "2026-07-31"
-open_weights = false
+open_weights = true
+license = "MIT"
+
+[limit]
+context = 1_000_000
+output = 384_000
 
 [modalities]
 input = ["text"]
 output = ["text"]
 
-[limit]
-context = 128_000
-output = 8_192
+[[weights]]
+label = "DeepSeek-V4-Flash-0731 weights"
+url = "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
+format = "safetensors"

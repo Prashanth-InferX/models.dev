@@ -1,0 +1,25 @@
+name = "GLM-5.3-Flash"
+family = "glm"
+description = "Natively multimodal MoE model from Z.ai's GLM-5 series, tuned for high-throughput coding and agentic workloads"
+attachment = true
+reasoning = true
+tool_call = true
+structured_output = true
+temperature = true
+release_date = "2026-08-26"
+last_updated = "2026-08-26"
+open_weights = true
+license = "MIT"
+
+[limit]
+context = 1_048_576
+output = 131_072
+
+[modalities]
+input = ["text", "image", "video"]
+output = ["text"]
+
+[[weights]]
+label = "GLM-5.3-Flash weights"
+url = "https://huggingface.co/zai-org/GLM-5.3-Flash"
+format = "safetensors"
