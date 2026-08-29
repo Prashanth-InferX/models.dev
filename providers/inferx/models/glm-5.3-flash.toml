@@ -1,6 +1,5 @@
-# Reasoning: reasoning_effort = "low" | "high" | "max" — thinking cannot be disabled per Z.ai docs
+# Effort wire: {"reasoning_effort": "low"|"high"|"max"} — thinking cannot be disabled per Z.ai docs
 base_model = "zhipuai/glm-5.3-flash"
-name = "GLM 5.3 Flash"
 
 [cost]
 input = 0.075
