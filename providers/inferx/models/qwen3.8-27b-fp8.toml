@@ -1,10 +1,14 @@
+# Toggle: chat_template_kwargs.enable_thinking = true|false
 base_model = "alibaba/qwen3.8-27b"
 name = "Qwen 3.8 27B (FP8)"
+
+reasoning_options = [
+  { type = "toggle" },
+]
 
 [cost]
 input = 0.018
 output = 0.128
 
 [limit]
-context = 262_144
 output = 16_384
