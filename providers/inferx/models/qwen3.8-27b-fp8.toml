@@ -2,19 +2,14 @@
 base_model = "alibaba/qwen3.8-27b"
 name = "Qwen3.8 27B (FP8)"
 attachment = false
-
-reasoning_options = [
-  { type = "toggle" }
-]
-
 [modalities]
 input = ["text"]
 output = ["text"]
-
 [cost]
 input = 0.018
 output = 0.128
-
+[limit]
+output = 16_384
 [reasoning_options]
 # wire: forwarded as chat_template_kwargs.enable_thinking
 toggle = true
