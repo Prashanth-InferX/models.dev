@@ -1,0 +1,10 @@
+base_model = "qwen/qwen3.8-27b"
+name = "Qwen 3.8 27B (FP8)"
+
+[cost]
+input = 0.018
+output = 0.128
+
+[limit]
+context = 262_144
+output = 16_384
