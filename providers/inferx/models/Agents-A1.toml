@@ -1,20 +1,24 @@
-# limit.output confirmed working at 100_000 via live test (300_000 was
-# rejected with a generic 400, exact ceiling between 100k-300k unknown)
+# InferX proprietary model SKU (no public lab identity)
 name = "Agents-A1"
-description = "35B MoE agentic model built for long-horizon search, engineering, and scientific reasoning tasks"
-release_date = "2026-06-26"
-last_updated = "2026-06-26"
-attachment = true
-reasoning = true
-reasoning_options = []
+description = "InferX agentic execution model"
+family = "agents"
+attachment = false
+reasoning = false
 tool_call = true
-open_weights = true
-[limit]
-context = 262_000
-output = 100_000
-[cost]
-input = 0
-output = 0
+structured_output = true
+temperature = true
+release_date = "2026-03-01"
+last_updated = "2026-03-01"
+open_weights = false
+
 [modalities]
-input = ["text", "image"]
+input = ["text"]
 output = ["text"]
+
+[cost]
+input = 0.00
+output = 0.00
+
+[limit]
+context = 128_000
+output = 8_192

@@ -1,10 +1,9 @@
-# limit.output confirmed working at 100_000 via live test
-name = "Ornith-1.0-35B-FP8"
-base_model = "deepreinforce/ornith-1.0-35b"
+# No host-side thinking toggle or effort parameters supported on this endpoint
+base_model = "ornith/ornith-1.0-35b"
+name = "Ornith 1.0 35B (FP8)"
+
 reasoning_options = []
-[limit]
-context = 262_000
-output = 100_000
+
 [cost]
-input = 0
-output = 0
+input = 0.02
+output = 0.14

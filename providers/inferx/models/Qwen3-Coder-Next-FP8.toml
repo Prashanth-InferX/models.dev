@@ -1,11 +1,5 @@
-# Toggle: chat_template_kwargs.enable_thinking = true|false
 base_model = "alibaba/qwen3-coder-next"
 name = "Qwen3 Coder Next (FP8)"
-reasoning = true
-
-reasoning_options = [
-  { type = "toggle" }
-]
 
 [cost]
 input = 0.018
