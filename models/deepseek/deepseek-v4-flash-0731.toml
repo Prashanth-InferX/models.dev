@@ -1,4 +1,5 @@
 name = "DeepSeek V4 Flash (0731)"
+description = "Lightweight reasoning model optimized for sub-second latent execution and agentic workflows"
 family = "deepseek"
 attachment = true
 reasoning = true
