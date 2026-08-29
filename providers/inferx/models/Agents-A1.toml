@@ -1,9 +1,8 @@
 # InferX proprietary model SKU (no public lab identity)
 name = "Agents-A1"
 description = "InferX agentic execution model"
-family = "auto"
-attachment = false
-reasoning = false
+attachment = true
+reasoning = true
 tool_call = true
 structured_output = true
 temperature = true
@@ -11,8 +10,12 @@ release_date = "2026-03-01"
 last_updated = "2026-03-01"
 open_weights = false
 
+reasoning_options = [
+  { type = "toggle" }
+]
+
 [modalities]
-input = ["text"]
+input = ["text", "image"]
 output = ["text"]
 
 [cost]
@@ -20,5 +23,5 @@ input = 0.00
 output = 0.00
 
 [limit]
-context = 128_000
+context = 262_144
 output = 8_192
