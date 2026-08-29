@@ -1,6 +1,4 @@
-# Toggle: chat_template_kwargs.enable_thinking = true|false
 base_model = "alibaba/qwen3.6-27b"
-name = "Qwen3.6 27B (FP8)"
 
 reasoning_options = [
   { type = "toggle" }
