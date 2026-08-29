@@ -1,4 +1,6 @@
+# Reasoning parameters: reasoning_effort = "low" | "high" | "max"
 base_model = "zhipuai/glm-5.3"
+name = "GLM 5.3 Flash"
 
 reasoning_options = [
   { type = "effort", values = ["low", "high", "max"] }
