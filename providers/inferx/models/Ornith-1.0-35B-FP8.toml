@@ -1,9 +1,0 @@
-# No host-side thinking toggle or effort parameters supported on this endpoint
-base_model = "ornith/ornith-1.0-35b"
-name = "Ornith 1.0 35B (FP8)"
-
-reasoning_options = []
-
-[cost]
-input = 0.02
-output = 0.14
